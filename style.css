@@ -57,6 +57,21 @@ h2{
     padding-top: 20px;
     padding-bottom: 10px;
 }
+.blog{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 5%;
+}
+.blog1{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 25px gray;
+}
+.blog1 img{
+    width: 100%;
+}
 #my-content{
     padding: 0% 15%;
 }
@@ -64,9 +79,8 @@ h2{
     display: flex;
     width: 90%;
     margin: auto;
-    background-color: #e2dfdf;
     border-radius: 10px;
-    box-shadow: 10px 10px 10px #f1f1e8;
+    box-shadow: 10px 10px 25px gray;
 }
 .shadow div{
     text-align: center;
@@ -78,8 +92,9 @@ h2{
 footer{
     background-attachment: fixed;
     background-color: black;
+    margin-top: 5%;
 }
-h3{
+ footer h3{
     text-align: center;
     color: brown;
     padding-top: 10px;
