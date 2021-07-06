@@ -2,14 +2,16 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;;
 }
+.first{
+    background-image: url(images/shapes/backg3.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%; 
+}
 .section{
     display: flex;
 }
-.first{
-    background-image: url(images/shapes/backg3.png);
-    width: 100%; 
-}
-.front-part{
+.front-part1{
     width: 50%;
     padding: 5%;
 }
@@ -45,19 +47,28 @@ img.logo{
     color: #000;
     background-image: linear-gradient(green,orange);
 }
+.front-part2{
+    width: 50%;
+    padding: 5%;
+}
 .middle{
     background-image: url(images/shapes/backg1.png);
+    background-repeat: no-repeat;
     width: 100%;
+
 }
 #image2{
-    width: 70%;
+    width: 67%;
     padding-left: 70px;
 }
-h2{
+.front-part2 h2{
     font-size: 40px;
+    margin-top: 20%;
 }
 p.second-para{
+    text-align: justify;
     padding-bottom: 60px;
+    margin: auto;
 }
 .my-recipies h2{
     text-align: center;
@@ -66,6 +77,7 @@ p.second-para{
 p#recipies-para{
     padding: 0% 23%;
     text-align: justify;
+    padding-bottom: 50px;
 }
 .blog{
     display: flex;
