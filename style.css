@@ -73,26 +73,26 @@ p#recipies-para{
     margin: auto;
     padding-bottom: 5%;
 }
-.blog1{
+.blog-shadow{
     padding: 10px;
     margin: 10px;
     border-radius: 25px;
     box-shadow: 10px 10px 25px gray;
 }
-.blog1 img{
+.blog-shadow img{
     width: 100%;
 }
-.blog p{
+.blog-shadow p{
     text-align: justify;
 }
-.shadow{
+.shadow-views{
     display: flex;
     width: 90%;
     margin: auto;
     border-radius: 15px;
     box-shadow: 10px 10px 25px gray;
 }
-.shadow div{
+.shadow-views div{
     text-align: center;
     margin: auto;
     color: #000;
@@ -108,7 +108,7 @@ footer{
     padding-top: 30px;
 }
 footer p{
-    color: rgb(141, 139, 130);
+    color: gray;
     text-align: center;
     padding-bottom: 40px;
 
