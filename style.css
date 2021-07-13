@@ -1,12 +1,44 @@
-body{
+/* common style  */
+*{
     margin: 0;
+    padding: 0;
+}
+body{
     font-family: 'Poppins', sans-serif;;
 }
+
+/* navigation style  */
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(155, 155, 165);
+    color: white;
+}
+.navBar ul{
+    display: flex;
+}
+.logo h2, .navBar ul li{
+    list-style-type: none;
+    padding: 10px 20px;
+}
+.logo h2 a, .navBar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 24px;
+}
+.logo h2 a, .navBar ul li a:hover{
+    background-image: linear-gradient(red, rgb(201, 231, 33));
+    padding: 10px 20px;
+}
+
+/* style 1st section  */
 .first{
-    background-image: url(images/shapes/backg3.png);
+    background-image: url(images/shapes/backg4.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    width: 100%; 
+    width: 100%;
 }
 .section{
     display: flex;
@@ -18,6 +50,7 @@ body{
 h1{
    font-size: 50px;
    line-height: 1.3;
+   margin-top: 10%;
 }
 span{
     color: red;
@@ -26,14 +59,14 @@ span{
     width: 80%;
 
 }
-
 p.first-para{
-    padding-bottom: 10px;
+    padding: 30px 0px;
 }
-img.logo{
+a img.logo{
+    position: relative;
+    top: 10px;
     width: 30px;
     padding-left: 30px;
-
 }
 .anchor-link{
     padding: 10px 15px;
@@ -47,37 +80,22 @@ img.logo{
     color: #000;
     background-image: linear-gradient(green,orange);
 }
-.front-part2{
-    width: 50%;
-    padding: 5%;
-}
-.middle{
-    background-image: url(images/shapes/backg1.png);
-    background-repeat: no-repeat;
-    width: 100%;
 
-}
-#image2{
-    width: 67%;
-    padding-left: 70px;
-}
-.front-part2 h2{
-    font-size: 40px;
-    margin-top: 20%;
-}
-p.second-para{
-    text-align: justify;
-    padding-bottom: 60px;
-    margin: auto;
+/* style section 3 my recipie  */
+.my-recipies{
+    background-image: url(images/shapes/backg3.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%; 
 }
 .my-recipies h2{
     text-align: center;
     padding-top: 20px;
 }
 p#recipies-para{
-    padding: 0% 23%;
     text-align: justify;
-    padding-bottom: 50px;
+    padding: 40px 240px;
+
 }
 .blog{
     display: flex;
@@ -87,7 +105,7 @@ p#recipies-para{
 }
 .blog-shadow{
     padding: 10px;
-    margin: 10px;
+    margin-right: 30px;
     border-radius: 25px;
     box-shadow: 10px 10px 25px gray;
 }
@@ -96,19 +114,49 @@ p#recipies-para{
 }
 .blog-shadow p{
     text-align: justify;
+    padding: 10px 0px;
 }
+
+/* style section  about */
+.about{
+    background-image: url(images/shapes/backg1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.front-about{
+    width: 50%;
+    margin: 5%;
+
+}
+#imageAbout{
+    width: 67%;
+    padding-left: 70px;
+}
+.front-about h2{
+    font-size: 40px;
+    margin-top: 20%;
+}
+p.about-para{
+    text-align: justify;
+    padding: 30px 0px;
+}
+
+/* style for social view  */
 .shadow-views{
     display: flex;
     width: 90%;
     margin: auto;
-    border-radius: 15px;
+    border-radius: 20px;
     box-shadow: 10px 10px 25px gray;
 }
 .shadow-views div{
     text-align: center;
     margin: auto;
     color: #000;
+    padding: 10px;
 }
+
+/* style for footer  */
 footer{
     background-attachment: fixed;
     background-color: black;
